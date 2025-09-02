@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tic-Tac-Toe</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Confetti layer -->
+  <canvas id="confetti"></canvas>
+
+  <div class="shell">
+    <!-- floating background blobs -->
+    <div class="blob blob-a" aria-hidden="true"></div>
+    <div class="blob blob-b" aria-hidden="true"></div>
+
+    <header class="top">
+      <h1 class="title"><span>Tic-Tac-Toe</span></h1>
+      <p class="subtitle">Play smart, shine bright, claim victory 🌟</p>
+
+      <div class="toolbar">
+        <div class="score card">
+          <div class="pill x">X Wins: <span id="scoreX">0</span></div>
+          <div class="pill d">Draws: <span id="scoreD">0</span></div>
+          <div class="pill o">O Wins: <span id="scoreO">0</span></div>
+        </div>
+
+        <div class="mode card" role="group" aria-label="Game mode">
+          <button id="btnPVP" class="seg active">2 Players</button>
+          <button id="btnAI" class="seg alt">Vs Computer</button>
+        </div>
+
+        <div id="status" class="status card">Player <span class="x">X</span> to move</div>
+      </div>
+    </header>
+
+    <main>
+      <div class="board" id="board" aria-label="Tic-Tac-Toe board">
+        <!-- 9 cells injected by JS -->
+      </div>
+    </main>
+
+    <footer class="bottom">
+      <button id="btnNew" class="btn primary">New Game</button>
+      <button id="btnResetScores" class="btn ghost">Reset Scores</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
