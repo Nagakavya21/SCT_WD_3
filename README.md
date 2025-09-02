@@ -29,7 +29,7 @@ A vibrant and interactive **Tic-Tac-Toe game** crafted with **HTML, CSS, and Jav
 
 1. **Clone the repository**
 
-   git clone https://github.com/Nagakavya21/SCT_WD_3/tree/main/Tic-Tac-Too.git
+   git clone https://github.com/Nagakavya21/SCT_WD_3/tree/main/Tic-Tac-Too
    
    cd tic-tac-toe
 
