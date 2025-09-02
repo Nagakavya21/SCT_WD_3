@@ -29,7 +29,7 @@ A vibrant and interactive **Tic-Tac-Toe game** crafted with **HTML, CSS, and Jav
 
 1. **Clone the repository**
 
-   git clone https://github.com/your-username/tic-tac-toe-ai.git
+   git clone https://github.com/Nagakavya21/SCT_WD_3/tree/main/Tic-Tac-Too.git
    
    cd tic-tac-toe
 
@@ -39,7 +39,7 @@ A vibrant and interactive **Tic-Tac-Toe game** crafted with **HTML, CSS, and Jav
 
 ## 📂 Project Structure
 
-tic-tac-toe/
+tic-tac-toe
 
 ├── index.html      # Main HTML file
 
