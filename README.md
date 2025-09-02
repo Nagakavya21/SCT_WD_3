@@ -20,9 +20,9 @@ A vibrant and interactive **Tic-Tac-Toe game** crafted with **HTML, CSS, and Jav
 ## 🛠️ Tech Stack
 
 - **HTML5** – Game structure
-- 
+
 - **CSS3** – Responsive UI, glowing animations, gradients
-- 
+  
 - **JavaScript (ES6)** – Game logic, AI algorithm, event handling
 
 ## 🚀 Getting Started
@@ -30,17 +30,21 @@ A vibrant and interactive **Tic-Tac-Toe game** crafted with **HTML, CSS, and Jav
 1. **Clone the repository**
 
    git clone https://github.com/your-username/tic-tac-toe-ai.git
+   
    cd tic-tac-toe
 
-2. **Open `index.html` in your browser**
+3. **Open `index.html` in your browser**
 
    * No server setup required! 🎉
 
 ## 📂 Project Structure
 
 tic-tac-toe/
+
 ├── index.html      # Main HTML file
+
 ├── style.css       # Game styles
+
 ├── script.js       # Game logic & AI
 
 
